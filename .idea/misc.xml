@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/drawable/gtt_bg.xml" value="0.1055" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/activity_splash_screen.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/app_bar_main.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/content_main.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/fragment_alerts.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/fragment_buskets.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/fragment_executed.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/fragment_gtt.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/fragment_holdings.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/fragment_home.xml" value="0.15291936978683968" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/fragment_open.xml" value="0.15291936978683968" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/fragment_order_list.xml" value="0.15291936978683968" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/fragment_portfolio_list.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/fragment_positions.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/fragment_sip.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/fragment_tools_list.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/layout/fragment_watchlist.xml" value="0.15291936978683968" />
+        <entry key="..\:/Users/Abir/Downloads/ThelegendTrader/ThelegendTrader/app/src/main/res/menu/menu.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/drawable/button_bg.xml" value="0.1545" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/drawable/customer_bottom_nav_colors.xml" value="0.1545" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/drawable/pin_bg.xml" value="0.1545" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/drawable/text_input_box_stroke.xml" value="0.1545" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/layout/activity_login.xml" value="0.24374420759962928" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/layout/activity_main.xml" value="0.24374420759962928" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/layout/activity_redirect.xml" value="0.15433946130825138" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/layout/activity_splash_screen.xml" value="0.24374420759962928" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/layout/activity_verify_pin.xml" value="0.24374420759962928" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/layout/app_bar_maiin.xml" value="0.24374420759962928" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/layout/app_bar_main.xml" value="0.24374420759962928" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/layout/content_main.xml" value="0.24374420759962928" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/layout/fragment_home.xml" value="0.24374420759962928" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/layout/fragment_watchlist.xml" value="0.24374420759962928" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/layout/fragment_watchlist2.xml" value="0.2894399315946986" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/layout/stocklist_layout.xml" value="0.24374420759962928" />
+        <entry key="..\:/Users/Hoogloo/AndroidStudioProjects/ThelegendTrader/app/src/main/res/menu/menu.xml" value="0.24374420759962928" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

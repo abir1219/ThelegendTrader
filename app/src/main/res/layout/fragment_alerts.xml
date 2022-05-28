@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.ui.Tools.AlertsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/llTop"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/gray4"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/llSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llTop"
+            android:layout_marginLeft="12dp"
+            android:elevation="1dp"
+            android:weightSum="1.5"
+            android:layout_marginTop="-25dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/gtt_bg"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:layout_weight=".53"
+                android:drawableTint="@color/gray"
+                android:hint="@string/search_alert"
+                android:drawableLeft="@drawable/ic_baseline_search_24"
+                android:padding="12dp" />
+
+            <!--<TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6/50"
+                android:layout_weight="1.6"
+                android:gravity="center"/>-->
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:padding="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/gray1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_alert"
+                android:layout_marginStart="5dp"
+                android:drawablePadding="5dp"
+                android:layout_weight=".97"
+                android:textSize="14sp"
+                android:drawableStart="@drawable/ic_baseline_add_24"
+                app:drawableTint="@color/blue"
+                android:textColor="@color/blue"/>
+
+        </LinearLayout>
+
+        <!--<androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/llThird"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rvStockList"/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/six" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/no_alerts"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Create new alert" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

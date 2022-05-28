@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray4"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.ui.Watchlist.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/marketwatch"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvText"
+            android:layout_marginTop="10dp"
+            android:background="@color/white2"
+            android:elevation="0dp"
+            style="@style/AppTabLayout"
+            app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+            app:tabIndicatorColor="@color/blue"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/blue"
+            app:tabTextColor="@color/black1" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tab_layout"
+            android:background="@color/white" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ivBack"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_baseline_arrow_back_24" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/logo_01" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="Login"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilUserId"
+                style="@style/LoginTextInputLayoutStyle"
+                android:layout_below="@+id/tvTitle"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tieUserId"
+                    android:layout_width="match_parent"
+                    android:drawableEnd="@drawable/open"
+                    android:padding="15dp"
+                    android:layout_height="wrap_content"
+                    android:hint="User ID"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilPassword"
+                style="@style/LoginTextInputLayoutStyle"
+                android:layout_below="@+id/tilUserId"
+                android:layout_marginTop="40dp"
+                app:passwordToggleEnabled="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tiePassword"
+                    android:layout_width="match_parent"
+                    android:padding="15dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/tvLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tilPassword"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/button_bg"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="LOGIN"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvForgot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvLogin"
+                android:layout_marginTop="25dp"
+                android:gravity="end"
+                android:text="Forgot user  ID or password?"
+                android:textColor="@color/blue"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_below="@+id/tvForgot"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dp"
+                    android:fontFamily="@font/kanit_bold"
+                    android:text="THE LEGEND TRADER" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

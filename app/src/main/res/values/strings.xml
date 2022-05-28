@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">The legend Trader</string>
+    <string name="watchlist">Watchlist</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">Home</string>
+    <string name="marketwatch">Marketwatch</string>
+    <string name="orders">Orders</string>
+    <string name="search_amp_add"><![CDATA[Search & add]]></string>
+    <string name="search_infy_reliance"><![CDATA[Search eg: infy, reliance]]></string>
+    <string name="filter">Filter</string>
+    <string name="search">Search</string>
+    <string name="no_holding">No holding</string>
+    <string name="tradebook">Tradebook</string>
+    <string name="analytics">Analytics</string>
+    <string name="no_pending_orders">No pending orders</string>
+    <string name="no_executed_orders">No executed orders</string>
+    <string name="no_position">No positions</string>
+    <string name="no_baskets">No Baskets</string>
+    <string name="no_gtt">No GTT</string>
+    <string name="no_sip">No SIP</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="tools">Tools</string>
+    <string name="new_basket">New basket</string>
+    <string name="new_sip">New SIP</string>
+    <string name="search_basket_name">Search basket name</string>
+    <string name="search_sip">Search SIP</string>
+    <string name="search_alert">Search alert</string>
+    <string name="new_alert">New alert</string>
+    <string name="no_alerts">No alerts</string>
+</resources>
